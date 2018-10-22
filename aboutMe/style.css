@@ -1,11 +1,27 @@
 li {
-    color: rgba(243, 7, 7, 0.808);font-family: cursive; outline-color: blue
+    color: rgba(243, 7, 7, 0.808);font-family: cursive;
 }
 text{
     font: outline;color: blue
 }
 img{
-    width: 50%
+    max-width: 500px; 
 }
 text{font-family: cursive
+}
+
+/* p{background-color: rgb(172, 159, 159)} */
+
+
+footer{
+    right: 20; background-color: aquamarine; color: rgb(90, 16, 16);
+
+}
+
+@media (min-width: 500px) { 
+    #words {
+        float: right;
+    }
+    
+
 }
