@@ -1,3 +1,10 @@
 li {
     color: rgba(243, 7, 7, 0.808)
 }
+text{
+    font: outline;color: blue
+}
+img{
+    width: 50%
+}
+
