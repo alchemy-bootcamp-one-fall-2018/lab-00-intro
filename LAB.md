@@ -14,7 +14,7 @@ This lab will ensure everyone has the pieces in place to do a successful lab sub
 
 ## Requirements
 
-1. Add `index.html` and make sure you can launch with Live Server
+1. Add `` and make sure you can launch with Live Server
 1. Add a `index.js` file with the following contents:
   ```js
   var x = 12;
