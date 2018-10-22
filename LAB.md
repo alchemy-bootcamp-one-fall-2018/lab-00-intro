@@ -14,8 +14,8 @@ This lab will ensure everyone has the pieces in place to do a successful lab sub
 
 ## Requirements
 
+1. Add `index.html` and make sure you can launch with Live Server
 1. Add a `index.js` file with the following contents:
-
   ```js
   var x = 12;
   var y = x + 30;
@@ -24,9 +24,8 @@ This lab will ensure everyone has the pieces in place to do a successful lab sub
   console.log('the answer is', y);
   
   ```  
-2. Add the class `.eslintrc` file
-3. Add a `.travis.yml` file with the following contents:
-
+1. Add the class `.eslintrc` file
+1. Add a `.travis.yml` file with the following contents:
   ```yaml
   language: "node_js"
   node_js: "10"
