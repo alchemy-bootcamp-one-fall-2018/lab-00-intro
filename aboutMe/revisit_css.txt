@@ -1,0 +1,39 @@
+
+text{
+    font: outline;color: blue
+}
+
+
+/* p{background-color: rgb(172, 159, 159)} */
+
+
+footer{
+    right: 20; background-color: rgb(187, 127, 255); color: rgb(90, 16, 16);
+
+}
+
+@media (min-width: 500px) { 
+    #words {
+        float: right;
+    }
+    
+
+}label {
+    font-weight: 100
+}
+
+form div {
+    max-width: 600px;
+    margin: 0% auto;
+    background: blue
+    padding; 10px;
+    text-align: center
+
+}
+button[type="submit"]{
+    color: greenyellow
+}
+
+form:hover{
+    box-shadow: 10px 10px 10px red
+}
