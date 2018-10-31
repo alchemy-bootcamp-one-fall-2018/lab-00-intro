@@ -8,6 +8,7 @@ This lab will ensure everyone has the pieces in place to do a successful lab sub
 2. Open the terminal and navigate to your project directory
     * Should be based off your home `~` directory
     * Avoid spaces in folder paths
+3. Copy the repo locally via `git clone <your-fork-ssh-or-url>`
 4. `> cd lab-00-intro`
 5. `> code .`
 
