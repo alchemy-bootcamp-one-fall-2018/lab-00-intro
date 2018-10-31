@@ -1,11 +1,70 @@
 li {
-    color: rgba(243, 7, 7, 0.808);font-family: cursive; outline-color: blue
+    color: rgba(243, 7, 7, 0.808);font-family: cursive;
 }
-text{
-    font: outline;color: blue
-}
+
 img{
-    width: 50%
+    max-width: 200px; 
+
 }
+
 text{font-family: cursive
 }
+
+@media (min-width: 500px) { 
+    #words {
+        float: right;
+    }
+
+label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  form div {
+    padding: 5px 10px;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: pink;
+    padding: 10px;5px
+    text-align: left;
+  }
+  
+ 
+  
+  button[type="yup"] {
+    color:greenyellow;
+  }
+  
+  button[type="Horse Feathers"] {
+    color: rgb(5, 123, 201);
+  }
+  
+  .correct {
+    background-color: lightgreen;
+  }
+  
+  .incorrect {
+    background-color: pink;
+  }
+  
+  .hidden {
+    display: none;
+}
+//10.24.2018
+p{
+    background-color: steelblue;
+
+  }
+//defined by class
+
+.content {
+    font-weight: bold;
+}  
+
+
+
+
+  ]

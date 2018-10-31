@@ -4,40 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css" title="style">
-    <style type="text/css">
-        h1 {
-           color:red;
-           }
-        h2{color: blueviolet
-        }
-       </style>
-            
+    <link rel="stylesheet" type="text/css" href="style.css" title="style">      
     <title>All about Me!!!!</title>
+    <script src="script3.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    
+
 </head>
 <body>
-    <h1>It's my page and I'll cry if I want to !!</H1>
+    <main>
+            <h1>My name is Peter</H1>
     
-    <h2>BLURB!</h2>
+                <h2>Hello</h2>
+                    
+                <img src="aardvark-tongue-out.adapt.945.1.jpg" alt="antEAter">        
+            
+    <section id="words">
         
-    
-    <p>
-        S<img src="aardvark-tongue-out.adapt.945.1.jpg" alt="">
-              
         <ol>
-                <li>I'm really not an Aardvark</li>
-                <li>But I am an Animal</li>
-                <li>I like Cheese</li>
-                <li>There is no free lunch</li>
-            </ol>
-    
-        </p>
-    
+            <li>I'm really not an Aardvark</li>
+            <li>But I am an Animal</li>
+            <li>I like Cheese</li>
+            <li>There is no free lunch</li>
+        </ol>
         <p>
-            Nobody here but us chickens
+            I'm really into art and film. Movies combine my love for visuals and poetry. I'm a gardener as well because my love for plants is second to my love for art.
         </p>
+ 
+            
+    <div id="game thingy">this space intentionally left blank</div>
+
+    <section>
+        <h2>Quiz on doggos:</h2>
+        <form id="about-me-form" name="about-me-form"
+          onsubmit="event.preventDefault(); checkAboutMe();"
+          onreset="resetAboutMe()"
+        >
+          <div>
+            <label for="cats">Do I like Bugs</label>
+            <input type="text" id="bugs" name="bugs" placeholder="yes/no" />
+          </div>
     
-        <div>this space intentionally left blank</div>
+          <div>
+            <label for="film">What is my favorite star wars film?</label>
+            <input type="text" id="film" name="film" placeholder="not phantom menace" />
+          </div>
+    
+          <div>
+            <button type="submit">Guess</button>
+            <button type="reset">Play Again</button>
+          </div>
+    
+          <p id="about-me-response"></p>
+        </form>
+    
+      </section>
+    
+      <section>
+        <h2>Guess how old I am?</h2>
+        <form id="guess-number-form"
+          onsubmit="event.preventDefault(); checkGuessNumber();"
+          onreset="resetGuessNumber()"
+        >
+          <div>
+            <label for="number">How old am I?</label>
+            <input type="text" id="number" name="number" placeholder="1 - 100" />
+          </div>
+    
+          <div>
+            <button type="submit" name="guess">Guess</button>
+            <button type="reset" name="play-again">Play Again</button>
+          </div>
+    
+          <p id="guess-number-response"></p>
+        </form>
+    
+      </section>
+    
+      <script src="aboutMe.js"></script>
+      <script src="guess-number.js"></script>
+    
+    </main>
+    
+
+    <footer>
+        Ace of Base
+    </footer>
+
+    <!--later--> <div >
+            <form id="ABOUT ME FORM">
+
+                    <label for="ants" id="BUGS"></label>
+                    <input type="text" id="I eat BUGS!" placeholder="crunch">
+                    <label for="Cheese anyone?"></label>
+                    <input type="text">
+          </form>
+         
+                <button for="insects" id="hardshell"></button>
+             </div><!--sometime later-->
     
     
 </body>
