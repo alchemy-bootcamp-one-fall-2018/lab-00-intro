@@ -4,6 +4,7 @@
 var aboutMeForm = document.getElementById('about-me-form');
 var aboutMeResponse = document.getElementById('about-me-response');
 
+// eslint-disable-next-line no-unused-vars
 function checkAboutMe() {
     
 
@@ -42,6 +43,7 @@ function checkAboutMe() {
    
 }
 
+// eslint-disable-next-line no-unused-vars
 function resetAboutMe() {
     var elements = aboutMeForm.elements;
     var bugsInput = elements.bugs;

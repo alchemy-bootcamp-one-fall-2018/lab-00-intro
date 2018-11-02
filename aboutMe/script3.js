@@ -5,6 +5,7 @@
 var aboutMeForm = document.getElementById('about-me-form');
 var aboutMeResponse = document.getElementById('about-me-response');
 
+// eslint-disable-next-line no-unused-vars
 function checkAboutMe() {
     // this code is specific to when checkAnswers is called
 
@@ -46,6 +47,7 @@ function checkAboutMe() {
     // document.getElementById('question-two').classList.remove('hidden');
 }
 
+// eslint-disable-next-line no-unused-vars
 function resetAboutMe() {
     var elements = aboutMeForm.elements;
     var catsInput = elements.cats;
@@ -56,6 +58,6 @@ function resetAboutMe() {
     foodInput.classList.remove('correct');
     foodInput.classList.remove('incorrect');
 
-    aboutMeResponse.textContent = '';
+    aboutMeResponse.textContent = 'you must be psychic!!';
 
 }

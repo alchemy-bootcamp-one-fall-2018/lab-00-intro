@@ -1,18 +1,44 @@
-li {
-    color: rgba(243, 7, 7, 0.808);font-family: cursive;
+
+body {
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  color: #000000;
+  margin: 0;
+  background: rgb(69, 133, 143); 
+}
+
+h2 {
+  text-align: center
+}
+
+
+
+
+h1 {
+  text-align: center
+}
+
+
+
+p {
+  text-align: center
+
 }
 
 img{
-    max-width: 200px; 
+    max-width: 200px;
 
 }
 
-text{font-family: cursive
+div {
+  text-align: center
 }
+
 
 @media (min-width: 500px) { 
     #words {
-        float: right;
+        float: center;
+        align-content: center;
+        
     }
 
 label {
@@ -22,14 +48,16 @@ label {
   
   form div {
     padding: 5px 10px;
+    align-content: center;
+    
   }
   
   form {
     max-width: 400px;
     margin: 0 auto;
     background: pink;
-    padding: 10px;5px
-    text-align: left;
+    padding: 10px;;
+    text-align: center;
   }
   
  
@@ -53,12 +81,8 @@ label {
   .hidden {
     display: none;
 }
-//10.24.2018
-p{
-    background-color: steelblue;
+ 
 
-  }
-//defined by class
 
 .content {
     font-weight: bold;
@@ -67,4 +91,4 @@ p{
 
 
 
-  ]
+}
